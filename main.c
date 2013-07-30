@@ -40,7 +40,6 @@ void main(void)
 
 
 
-
 	// show 'E'
 	lcdmem 	= (unsigned char *)0x0A2B;
 	*lcdmem = (unsigned char)(*lcdmem | (BIT4+BIT5+BIT6+BIT0+BIT3));
